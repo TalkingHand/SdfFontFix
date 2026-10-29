@@ -1,0 +1,9 @@
+pzt-env/
+*.log
+Thumbs.db
+.DS_Store
+*.bak
+__pycache__/
+# dev screenshots (referenced from _devnotes, not part of the mod)
+/compare_*.png
+/korean_panel_*.png

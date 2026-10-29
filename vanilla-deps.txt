@@ -1,0 +1,12 @@
+# KoreanSdfFont: vanilla dependencies (format: _guide/README.md "바닐라 의존 목록")
+# checked: 42.21.0
+#
+# kind	target	note
+
+data	media/fonts/KO/fonts.txt	our KO/fonts.txt replaces the vanilla one: tools/make_fonts_txt.sh copies it and appends the Sdf* fonts. Rerun after a game update that changes it
+data	media/fonts/KO/4x/zomboidLargeKorean.fnt	the font every Sdf* name maps to (lineHeight 45, same as the vanilla SDF fonts)
+data	UIFont Sdf* names	SdfRegular SdfItalic SdfBold SdfBoldItalic SdfOldRegular SdfOldBold SdfOldItalic SdfOldBoldItalic SdfRobertoSans SdfCaveat (media/fonts/EN/fonts.txt). A new Sdf* font would still show '?'
+assume	TextManager.Init reads EN then <lang> fonts.txt	zombie.ui.TextManager.Init: entries of KO/fonts.txt override EN ones by name. If KO stops being read after EN, the mod does nothing
+assume	TextManager.getFontFilePath	tries media/fonts/<lang>/<sizeDir>/<fnt>, then media/fonts/<lang>/<fnt>: "4x/zomboidLargeKorean.fnt" lands on KO/4x/ for every font size option. If the lookup changes, the font may not be found (text vanishes or falls back)
+assume	TextManager.Init after loadMods	zombie.GameWindow.init: initFonts() runs again after loadMods("default"). Fonts come only from mods enabled in the main-menu mod list, and only after a game restart
+assume	AngelCodeFont page path	pages resolve next to the .fnt, so the vanilla 4x pages load from the game folder
