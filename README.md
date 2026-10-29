@@ -1,4 +1,4 @@
-# Korean Font Fix (New UI)
+# Korean SDF Font Fix
 
 A Project Zomboid Build 42 mod that fixes Korean text showing as question marks in the new windows.
 

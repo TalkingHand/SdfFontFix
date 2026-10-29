@@ -1,4 +1,4 @@
-name=Korean Font Fix (New UI)
+name=Korean SDF Font Fix
 id=KoreanSdfFont
 description=Korean text in the new UI (fishing panel, build menu, newspapers and flyers) shows as question marks because those windows use SDF fonts with no Hangul. This mod maps them to the game's own Korean font. Only active when the game language is Korean.
 poster=poster.png

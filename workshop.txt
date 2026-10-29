@@ -1,6 +1,6 @@
 version=1
-title=Korean Font Fix (New UI)
-description=[h1]Korean Font Fix (New UI)[/h1]
+title=Korean SDF Font Fix
+description=[h1]Korean SDF Font Fix[/h1]
 description=In Build 42 the new windows (the fishing panel, the build menu, newspapers and flyers) use new SDF fonts that have no Hangul, so Korean text there shows as question marks. This mod maps those fonts to the game's own Korean font, so the text is readable.
 description=
 description=[h2]Notes[/h2]
