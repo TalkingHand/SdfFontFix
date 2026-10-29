@@ -10,7 +10,7 @@ import numpy as np
 from PIL import Image
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-KO = os.path.join(HERE, "..", "Contents", "mods", "KoreanSdfFont", "42", "media", "fonts", "KO")
+KO = os.path.join(HERE, "..", "..", "Contents", "mods", "SdfFontFix", "42", "media", "fonts", "KO")
 SAMPLES = [
     "Fishing 낚시 - 물고기 정보: 잉어 (Carp) 12.5kg",
     "날씨: 좋음 | 바람: 보통 | 온도: 알 수 없음",

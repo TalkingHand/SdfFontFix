@@ -1,0 +1,8 @@
+name=SDF Font Fix (CJK/Thai)
+id=SdfFontFix
+description=The new B42 windows (fishing panel, build menu, newspapers and flyers) use SDF fonts with no Korean, Japanese, Chinese or Thai glyphs, so that text shows as question marks. This mod maps those fonts to the game's own font for the language. Only active in Korean, Japanese, Chinese (both) and Thai.
+poster=poster.png
+author=TalkingHand
+url=https://github.com/TalkingHand/SdfFontFix
+modversion=1.0.0
+versionMin=42.0

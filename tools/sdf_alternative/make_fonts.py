@@ -19,7 +19,7 @@ from PIL import Image, ImageDraw, ImageFont
 from scipy.ndimage import distance_transform_edt
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-MOD = os.path.join(HERE, "..", "Contents", "mods", "KoreanSdfFont", "42")
+MOD = os.path.join(HERE, "..", "..", "Contents", "mods", "SdfFontFix", "42")
 OUT = os.path.join(MOD, "media", "fonts", "KO")
 GAME = sys.argv[1] if len(sys.argv) > 1 else r"C:/Program Files (x86)/Steam/steamapps/common/ProjectZomboid"
 VFONTS = os.path.join(GAME, "media", "fonts")
@@ -166,7 +166,7 @@ def build_atlas(name, ttf, ref, chars):
         f = "%s%d.png" % (name, n + 1)
         Image.fromarray(rgba, "RGBA").save(os.path.join(OUT, f), optimize=True)
         files.append(f)
-    print("[KoreanSdfFont] %s: %d glyphs, %d pages, %.1fpx" % (name, len(placed), len(files), px))
+    print("[SdfFontFix] %s: %d glyphs, %d pages, %.1fpx" % (name, len(placed), len(files), px))
     return files, placed
 
 
