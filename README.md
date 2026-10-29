@@ -19,7 +19,7 @@ The B42 windows built on the new UI (the fishing panel, the build menu, newspape
 
 ## Install
 
-- Steam Workshop: (link added after the first upload)
+- Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3829693073
 - Manual: copy `Contents/mods/SdfFontFix` to `%USERPROFILE%\Zomboid\mods\`.
 
 ## Compatibility

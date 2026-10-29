@@ -1,4 +1,5 @@
 version=1
+id=3829693073
 title=SDF Font Fix (CJK/Thai)
 description=[h1]SDF Font Fix (CJK/Thai)[/h1]
 description=In Build 42 the new windows (the fishing panel, the build menu, newspapers and flyers) use SDF fonts that only hold Latin, Cyrillic and Greek letters. In Korean, Japanese, Chinese and Thai the text in those windows shows as question marks. This mod maps those fonts to the game's own font for your language, so the text is readable.
