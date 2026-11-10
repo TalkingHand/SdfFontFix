@@ -18,5 +18,7 @@ description=[h2]한국어[/h2]
 description=B42의 새 창(낚시 창, 건설 메뉴, 신문·전단)은 라틴·키릴·그리스 문자만 있는 SDF 폰트를 써서 한국어, 일본어, 중국어, 태국어가 [b]???[/b]로 나와요. 이 모드는 그 폰트들을 게임에 들어 있는 해당 언어 폰트로 바꿔 글자가 제대로 보이게 해요. 이 다섯 언어(중국어 간체·번체 포함)에서만 동작하고 다른 언어는 바뀌지 않아요. 폰트는 게임을 켤 때 읽으니, 메인 메뉴 모드 목록에서 켠 뒤 [b]게임을 다시 시작[/b]해 주세요. 폰트만 바꾸므로 기존 세이브에 넣고 빼도 돼요. 그 창들에서는 영문도 그 언어 폰트로 나오고, 굵게·기울임 구분이 없어져요. 중국어 간체는 게임 기본 중국어 폰트에 없는 간체자(们 这 时 등)가 이 창들에서도 빈칸으로 나와요. 일본어는 번역이 빠져 있는 낚시 창 안내문도 채워요.
 description=
 description=Source: https://github.com/TalkingHand/SdfFontFix
+description=
+description=[url=https://ko-fi.com/talkinghands2285][img]https://raw.githubusercontent.com/TalkingHand/SdfFontFix/main/art/kofi_button.png[/img][/url]
 tags=Build 42;Interface
 visibility=public
